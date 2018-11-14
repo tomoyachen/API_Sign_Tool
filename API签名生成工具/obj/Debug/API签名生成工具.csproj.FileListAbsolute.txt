@@ -22,3 +22,16 @@ C:\Users\Administrator\source\repos\sign_to_jmeter\API签名生成工具\obj\Deb
 C:\Users\Administrator\source\repos\sign_to_jmeter\API签名生成工具\obj\Debug\API签名生成工具.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\source\repos\sign_to_jmeter\API签名生成工具\obj\Debug\API签名生成工具.exe
 C:\Users\Administrator\source\repos\sign_to_jmeter\API签名生成工具\obj\Debug\API签名生成工具.pdb
+E:\visual studio workspace\source\repos\API_Sign_Tool\API签名生成工具\bin\Debug\API签名生成工具.exe.config
+E:\visual studio workspace\source\repos\API_Sign_Tool\API签名生成工具\bin\Debug\API签名生成工具.exe
+E:\visual studio workspace\source\repos\API_Sign_Tool\API签名生成工具\bin\Debug\API签名生成工具.pdb
+E:\visual studio workspace\source\repos\API_Sign_Tool\API签名生成工具\obj\Debug\API签名生成工具.csprojAssemblyReference.cache
+E:\visual studio workspace\source\repos\API_Sign_Tool\API签名生成工具\obj\Debug\API签名生成工具.Form1.resources
+E:\visual studio workspace\source\repos\API_Sign_Tool\API签名生成工具\obj\Debug\API签名生成工具.Form2.resources
+E:\visual studio workspace\source\repos\API_Sign_Tool\API签名生成工具\obj\Debug\API签名生成工具.Form3.resources
+E:\visual studio workspace\source\repos\API_Sign_Tool\API签名生成工具\obj\Debug\API签名生成工具.Properties.Resources.resources
+E:\visual studio workspace\source\repos\API_Sign_Tool\API签名生成工具\obj\Debug\API签名生成工具.csproj.GenerateResource.cache
+E:\visual studio workspace\source\repos\API_Sign_Tool\API签名生成工具\obj\Debug\API签名生成工具.csproj.CoreCompileInputs.cache
+E:\visual studio workspace\source\repos\API_Sign_Tool\API签名生成工具\obj\Debug\API签名生成工具.exe
+E:\visual studio workspace\source\repos\API_Sign_Tool\API签名生成工具\obj\Debug\API签名生成工具.pdb
+E:\visual studio workspace\source\repos\API_Sign_Tool\API签名生成工具\obj\Debug\API签名生成工具.Form4.resources

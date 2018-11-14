@@ -255,8 +255,8 @@ namespace API签名生成工具
             textBox1.Text = str;
         }
 
-        private static string getMD5(string myString)
-        {
+        private static string GetMD5(string myString)
+        {   /*
             MD5 md5 = new MD5CryptoServiceProvider();
             byte[] fromData = System.Text.Encoding.Unicode.GetBytes(myString);
             byte[] targetData = md5.ComputeHash(fromData);
@@ -264,10 +264,30 @@ namespace API签名生成工具
 
             for (int i = 0; i < targetData.Length; i++)
             {
-                byte2String += targetData[i].ToString("x");
+                byte2String += targetData[i].ToString("x2");
             }
 
             return byte2String;
+            */
+
+            string pwd = string.Empty;
+            MD5 md5 = MD5.Create();
+            byte[] s = md5.ComputeHash(Encoding.UTF8.GetBytes(myString));
+            for (int i = 0; i < s.Length; i++)
+            {
+                pwd = pwd + s[i].ToString("x");
+            }
+            return pwd;
+        }
+
+        private void 生成MD5ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            String md5Str = GetMD5("111");
+            
+            Form4 md5Form = new Form4(md5Str);
+            md5Form.StartPosition = FormStartPosition.CenterParent;
+            md5Form.ShowDialog();
+
         }
     }
 }

@@ -44,6 +44,7 @@
             this.说明ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.小工具ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.参数化模版ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.生成MD5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -157,7 +158,7 @@
             // 重置ToolStripMenuItem
             // 
             this.重置ToolStripMenuItem.Name = "重置ToolStripMenuItem";
-            this.重置ToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
+            this.重置ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.重置ToolStripMenuItem.Text = "重置";
             this.重置ToolStripMenuItem.Click += new System.EventHandler(this.重置ToolStripMenuItem_Click);
             // 
@@ -172,14 +173,15 @@
             // 说明ToolStripMenuItem
             // 
             this.说明ToolStripMenuItem.Name = "说明ToolStripMenuItem";
-            this.说明ToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
+            this.说明ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.说明ToolStripMenuItem.Text = "说明";
             this.说明ToolStripMenuItem.Click += new System.EventHandler(this.说明ToolStripMenuItem_Click);
             // 
             // 小工具ToolStripMenuItem
             // 
             this.小工具ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.参数化模版ToolStripMenuItem});
+            this.参数化模版ToolStripMenuItem,
+            this.生成MD5ToolStripMenuItem});
             this.小工具ToolStripMenuItem.Name = "小工具ToolStripMenuItem";
             this.小工具ToolStripMenuItem.Size = new System.Drawing.Size(56, 21);
             this.小工具ToolStripMenuItem.Text = "小工具";
@@ -187,9 +189,16 @@
             // 参数化模版ToolStripMenuItem
             // 
             this.参数化模版ToolStripMenuItem.Name = "参数化模版ToolStripMenuItem";
-            this.参数化模版ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.参数化模版ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.参数化模版ToolStripMenuItem.Text = "参数化模版";
             this.参数化模版ToolStripMenuItem.Click += new System.EventHandler(this.参数化模版ToolStripMenuItem_Click);
+            // 
+            // 生成MD5ToolStripMenuItem
+            // 
+            this.生成MD5ToolStripMenuItem.Name = "生成MD5ToolStripMenuItem";
+            this.生成MD5ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.生成MD5ToolStripMenuItem.Text = "生成MD5";
+            this.生成MD5ToolStripMenuItem.Click += new System.EventHandler(this.生成MD5ToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -235,6 +244,7 @@
         private System.Windows.Forms.ToolStripMenuItem 重置ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 小工具ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 参数化模版ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 生成MD5ToolStripMenuItem;
     }
 }
 
